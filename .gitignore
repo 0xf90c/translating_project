@@ -1,0 +1,31 @@
+# Ignore virtual environments
+venv/
+myenv/
+env/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Ignore system-specific directories
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+
+# Ignore Git-related files
+.git/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.iml
